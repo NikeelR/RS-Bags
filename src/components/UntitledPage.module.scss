@@ -1,0 +1,14 @@
+@use "utils" as *;
+
+$color_type_0: rgb(255, 255, 255);
+
+.main {
+  @include flex-column;
+  background-color: $color_type_0;
+  position: relative;
+  overflow: hidden;
+}
+.main__item {
+  @include flex-column;
+  position: relative;
+}
